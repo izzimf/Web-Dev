@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    font-family: Calibri;
+}
+
+.top-container{
+    color: white;
+    background-color: #202023;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding: 2px;
+}
+
+.top-container h3{
+    margin-left: 35px;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+.bottom-container h1{
+    margin-left: -600px;
+}
+
+.action input{
+    outline: none;
+    padding: 2.5px;
+    width: 500px;
+    margin-top: 5px;
+}
+
+input[type="text"]::placeholder {
+    color: #b6b5b5;
+}
+
+ul li{
+    list-style: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
