@@ -1,0 +1,13 @@
+.group{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group div{
+  width: 190px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
