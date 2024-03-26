@@ -1,3 +1,9 @@
-x = input()
-digits_sum = sum(int(i) for i in x)
-print(digits_sum)
+n = int(input())
+
+k = 0
+power_of_two = 1
+
+while power_of_two < n:
+    power_of_two *= 2
+    k += 1
+print(k)

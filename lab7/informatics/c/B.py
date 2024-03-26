@@ -1,8 +1,8 @@
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
+num = int(input())
 
-for num in range(a, b + 1):
-    if num % d == c:
-        print(num, end=" ")
+divisor = 2
+
+while num % divisor != 0:
+    divisor += 1
+
+print(divisor)

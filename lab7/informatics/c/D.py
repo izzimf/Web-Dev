@@ -1,11 +1,8 @@
-x= int(input())
-d = int(input())
+n = int(input())
 
-
-count = 0
-while x > 0:
-    if x % 10 == d:
-        count += 1
-    x //= 10
-
-print(count)
+while n % 2 == 0:
+    n //= 2
+if n == 1:
+    print("YES")
+else:
+    print("NO")

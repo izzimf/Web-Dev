@@ -1,6 +1,6 @@
-a = int(input())
-b = int(input())
+n = int(input())
 
-for num in range(a, b+1):
-    if num % 2 == 0:
-        print(num, end=" ")
+i = 1
+while i * i <= n:
+    print(i * i)
+    i += 1
